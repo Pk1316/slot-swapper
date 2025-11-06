@@ -1,0 +1,9 @@
+.env
+# Ignore node modules at root and in workspace packages
+node_modules/
+# Also explicitly ignore per-package node_modules
+client/node_modules/
+server/node_modules/
+
+# macOS
+.DS_Store

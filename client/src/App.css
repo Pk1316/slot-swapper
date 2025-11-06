@@ -1,0 +1,6 @@
+:root{--bg:#282c34;--accent:#61dafb}
+.App{text-align:center;background:var(--bg);min-height:100vh;color:#fff}
+.App-header{padding:40px}
+.App-logo{height:80px;animation:spin 20s linear infinite}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.App-link{color:var(--accent)}
